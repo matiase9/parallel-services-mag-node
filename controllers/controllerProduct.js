@@ -1,10 +1,12 @@
 let connectionServices = async (id) => {
     try {
-        // Function to Connect to endpoint Magento (GET)
+        // for 25 each
+            // Function to Connect to endpoint Magento (GET)
 
-        // first oauth connection with client credentials
-        // API magento core ({localhost}/api/rest/products/{id})
-        // productDetails = URL /product/{id}   
+            // first oauth connection with client credentials
+            // API magento core ({localhost}/api/rest/products/{id})
+            // productDetails = URL /product/{id}   
+        //end for
     } catch(e) {
         console.log(e);
     }

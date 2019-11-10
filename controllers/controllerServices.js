@@ -14,9 +14,9 @@ const getServices = (app) => {
                     let position = 0;
                     // For list product ID of Magento and exist list[position], list[position+1], list[position+2], list[position+3]
                         let id = list[position]; //pop ID from list
-                        let id2 = list[position+1]; //pop ID from list
-                        let id3 = list[position+2]; //pop ID from list
-                        let id4 = list[position+3]; //pop ID from list
+                        let id2 = list[position+25]; //pop ID from list
+                        let id3 = list[position+50]; //pop ID from list
+                        let id4 = list[position+75]; //pop ID from list
 
                         const response = await Promise.all([threadOne(id), threadTwo(id2), threadThree(id3), threadFour(id4)]);
 
@@ -28,7 +28,7 @@ const getServices = (app) => {
                             body: response,
                             json: true
                         });
-                        position = position + 4;
+                        position = position + 100;
                     // End For
                 } catch(e) {
                     console.log(e);
