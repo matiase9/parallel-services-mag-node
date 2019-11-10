@@ -13,10 +13,10 @@ const getServices = (app) => {
                 try {
                     let position = 0;
                     // For list product ID of Magento and exist list[position], list[position+1], list[position+2], list[position+3]
-                        let id = list[position]; //pop ID from list
-                        let id2 = list[position+25]; //pop ID from list
-                        let id3 = list[position+50]; //pop ID from list
-                        let id4 = list[position+75]; //pop ID from list
+                        let array_ids = getList(position); // 0 - 25 Ids from List
+                        let array_ids2 = getList(position + 25); // 25 - 50 Ids from List
+                        let array_ids3 = getList(position + 50); // 50 - 75 Ids from List
+                        let array_ids4 = getList(position + 75); // 75 - 100 Ids from List
 
                         const response = await Promise.all([threadOne(id), threadTwo(id2), threadThree(id3), threadFour(id4)]);
 
