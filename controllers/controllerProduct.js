@@ -1,4 +1,3 @@
-
 let connectionServices = async (id) => {
     try {
         // Function to Connect to endpoint Magento (GET)

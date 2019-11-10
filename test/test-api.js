@@ -3,7 +3,7 @@ var request = require('request');
 
 it('Check Product List', function(done) {
     request('http://localhost:3600' , function(error, response, body) {
-        //expect(body).to.equal('Hello World');
+        //expect(body).to.equal('');
 
         // Open list id from file 
         // use service /product/update and send only 200 ids
