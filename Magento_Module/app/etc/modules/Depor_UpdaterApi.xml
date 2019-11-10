@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Depor_UpdaterApi>
+      <active>true</active>
+      <codePool>local</codePool>
+    </Depor_UpdaterApi>
+  </modules>
+</config>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Depor_UpdaterApi>
+            <version>1.0.0</version>
+        </Depor_UpdaterApi>
+    </modules>
+    <global>
+        <helpers>
+            <depor_updaterapi>
+                <class>Depor_UpdaterApi_Helper</class>
+            </depor_updaterapi>
+        </helpers>
+    </global>
+</config>
